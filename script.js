@@ -22,6 +22,8 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent = "Right Number!";
     document.querySelector(".body").style.background = "#60b347";
     document.querySelector(".number").textContent = secretNumber;
+    document.querySelector(".Matheus").textContent =
+      "Acertou, Matheus, minha putinha no xadrez";
     newHighScore = score;
 
     if (newHighScore > highScore) {
